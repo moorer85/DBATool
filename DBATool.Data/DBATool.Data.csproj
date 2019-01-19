@@ -13,4 +13,10 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Update="Migrations\20190119185845_start.Designer.cs">
+      <DependentUpon>20190119185845_start.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
 </Project>
