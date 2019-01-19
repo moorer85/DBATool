@@ -23,7 +23,7 @@ namespace DBATool.Service
             throw new NotImplementedException();
         }
 
-        public IEnumerable<Database> GetDatabases(int serverId)
+        public IEnumerable<Server> GetServers()
         {
             throw new NotImplementedException();
         }
