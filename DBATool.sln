@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.28407.52
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBATool", "DBATool\DBATool.csproj", "{0E63195E-28E2-44DB-BC36-FB8FE8625E6E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBATool.Data", "DBATool.Data\DBATool.Data.csproj", "{D2BA94EC-354D-4C5B-A163-53103D222C25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBATool.Service", "DBATool.Service\DBATool.Service.csproj", "{231A14C4-65CA-45C3-9F83-2A829EE74B49}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{0E63195E-28E2-44DB-BC36-FB8FE8625E6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E63195E-28E2-44DB-BC36-FB8FE8625E6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E63195E-28E2-44DB-BC36-FB8FE8625E6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2BA94EC-354D-4C5B-A163-53103D222C25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2BA94EC-354D-4C5B-A163-53103D222C25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2BA94EC-354D-4C5B-A163-53103D222C25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2BA94EC-354D-4C5B-A163-53103D222C25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{231A14C4-65CA-45C3-9F83-2A829EE74B49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{231A14C4-65CA-45C3-9F83-2A829EE74B49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{231A14C4-65CA-45C3-9F83-2A829EE74B49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{231A14C4-65CA-45C3-9F83-2A829EE74B49}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
