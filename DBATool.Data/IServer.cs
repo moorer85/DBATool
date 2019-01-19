@@ -9,7 +9,7 @@ namespace DBATool.Data
     {
        Server Get(int id);
        IEnumerable<Server> GetAll();
-       IEnumerable<Server> GetServers();
+  
        void Add(Server newServer);
     }
 }

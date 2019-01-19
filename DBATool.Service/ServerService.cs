@@ -2,30 +2,39 @@
 using DBATool.Data.Models;
 using System;
 using System.Collections.Generic;
-using System.Text;
+using System.Linq;
+
 
 namespace DBATool.Service
 {
     public class ServerService : IServer
     {
+
+        private readonly DBAToolDbContext _context;
+
+        public ServerService(DBAToolDbContext context)
+        {
+
+            _context = context;
+        }
+
         public void Add(Server newServer)
         {
-            throw new NotImplementedException();
+            _context.Add(newServer);
+            _context.SaveChanges();
+
         }
 
         public Server Get(int id)
         {
-            throw new NotImplementedException();
+            return _context.Servers.FirstOrDefault(v => v.Id == id);
         }
 
         public IEnumerable<Server> GetAll()
         {
-            throw new NotImplementedException();
+            return _context.Servers;
         }
 
-        public IEnumerable<Server> GetServers()
-        {
-            throw new NotImplementedException();
-        }
+       
     }
 }
