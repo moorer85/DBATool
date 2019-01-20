@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28407.52
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBATool", "DBATool\DBATool.csproj", "{0E63195E-28E2-44DB-BC36-FB8FE8625E6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DBATool", "DBATool\DBATool.csproj", "{0E63195E-28E2-44DB-BC36-FB8FE8625E6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBATool.Data", "DBATool.Data\DBATool.Data.csproj", "{D2BA94EC-354D-4C5B-A163-53103D222C25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DBATool.Data", "DBATool.Data\DBATool.Data.csproj", "{D2BA94EC-354D-4C5B-A163-53103D222C25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBATool.Service", "DBATool.Service\DBATool.Service.csproj", "{231A14C4-65CA-45C3-9F83-2A829EE74B49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DBATool.Service", "DBATool.Service\DBATool.Service.csproj", "{231A14C4-65CA-45C3-9F83-2A829EE74B49}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
